@@ -1,3 +1,4 @@
+// removing tasks
 // Adding new Task
 document.getElementById('form').addEventListener('submit', async function(event){
     event.preventDefault();
@@ -26,11 +27,7 @@ document.getElementById('form').addEventListener('submit', async function(event)
     let output = {result}
     console.log({output})
 
-    let tasks = document.getElementById('success');
-    tasks.innerHTML= 'Task added successfully'
-    let eachtask = document.getElementById('task');
-    eachtask.innerHTML= `${task} is due ${date}`
-     //: success.innerHTML= 'Task not added'
-
+    let tasks = document.getElementById('succes');
+    tasks.innerHTML= 'Task Removed successfully'
 
 })

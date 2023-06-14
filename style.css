@@ -81,3 +81,56 @@ body{
 #content{
     display: flex;
 }
+#projects a{
+    text-decoration: none;
+    color: #245F3F;
+}
+#projects a:hover{
+    font-weight: 700;
+
+}
+.form{
+    margin: 0 auto;
+    width: 70%;
+    background-color: #44B076;
+    padding: 2% 3% 4% 13%;
+    border-radius: 15px;
+}
+.form input{
+    padding: 10px 30px;
+    margin-left: 8%;
+    border: solid 1px #e2e2e2;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 18px;
+    color: black;
+}
+.form button{
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 4%;
+    background-color: #245F3F;
+}
+.form h1{
+    margin-left: 20%;
+    margin-bottom: 5%;
+    color: #245F3F;
+    /* margin-top: 5%; */
+
+}
+#remove{
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-top: 4%;
+    background-color: #245F3F;
+}
